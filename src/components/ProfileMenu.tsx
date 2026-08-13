@@ -20,7 +20,7 @@ const ProfileMenu: React.FC<ProfileMenuProps> = ({ onBack, user, onProfileInfo, 
   const [showUpgradeAccount, setShowUpgradeAccount] = useState(false);
 
   const handleDownloadApp = () => {
-    window.open('https://median.co/share/zpzpwld#apk', '_blank', 'noopener,noreferrer');
+    window.open('https://median.co/share/dyzdryk#apk', '_blank', 'noopener,noreferrer');
   };
 
   const handleWatchTutorial = () => {
