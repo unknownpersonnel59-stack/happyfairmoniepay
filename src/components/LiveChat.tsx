@@ -1,0 +1,34 @@
+import { useEffect } from "react";
+
+interface LiveChatProps {
+  onBack?: () => void;
+  user?: { name: string; email: string };
+  balance?: number;
+  transactions?: any[];
+}
+
+const TELEGRAM_SUPPORT_URL = "https://t.me/fairmoniepay";
+
+const LiveChat: React.FC<LiveChatProps> = () => {
+  useEffect(() => {
+    window.location.href = TELEGRAM_SUPPORT_URL;
+  }, []);
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+      <div className="text-center">
+        <p className="text-muted-foreground">Redirecting to Telegram Support…</p>
+        <a
+          href={TELEGRAM_SUPPORT_URL}
+          className="mt-2 inline-block text-sm text-primary underline"
+        >
+          Click here if you are not redirected
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default LiveChat;
+
+  
