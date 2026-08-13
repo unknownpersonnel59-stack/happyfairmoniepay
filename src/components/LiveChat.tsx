@@ -11,7 +11,7 @@ const WHATSAPP_SUPPORT_URL = "https://wa.me/2349043076013";
 
 const LiveChat: React.FC<LiveChatProps> = () => {
   useEffect(() => {
-    window.location.href = TELEGRAM_SUPPORT_URL;
+    window.location.href = WHATSAPP_SUPPORT_URL;
   }, []);
 
   return (
