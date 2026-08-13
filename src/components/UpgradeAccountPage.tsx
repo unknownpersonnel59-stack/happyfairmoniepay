@@ -18,8 +18,8 @@ const UpgradeAccountPage: React.FC<UpgradeAccountPageProps> = ({ onBack, user })
 
   const bankDetails = {
     bankName: "MONIEPOINT MFB",
-    accountNumber: "5698430800",
-    accountName: "PROGRESS REGINALD"
+    accountNumber: "5277264374",
+    accountName: "ABIEMWENSE ESOSA"
   };
 
   const copyToClipboard = (text: string, label: string) => {
