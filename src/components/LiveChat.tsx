@@ -7,7 +7,7 @@ interface LiveChatProps {
   transactions?: any[];
 }
 
-const TELEGRAM_SUPPORT_URL = "https://t.me/fairmoniepay";
+const WHATSAPP_SUPPORT_URL = "https://wa.me/2349043076013";
 
 const LiveChat: React.FC<LiveChatProps> = () => {
   useEffect(() => {
