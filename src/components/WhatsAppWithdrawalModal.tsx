@@ -25,7 +25,7 @@ const WhatsAppWithdrawalModal: React.FC<WhatsAppWithdrawalModalProps> = ({
 
 Join FairMonie Pay today and start earning instantly! Get ₦250,000 welcome bonus and withdraw anytime. 
 
-Sign up now: https://mainfairmonie-pay-ltd.netlify.app/`;
+Sign up now: https://fairmonie-pay-official-ltd.vercel.app/`;
     
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
     window.open(whatsappUrl, '_blank');
