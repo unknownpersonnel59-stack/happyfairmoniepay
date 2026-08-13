@@ -74,7 +74,7 @@ const InviteEarn: React.FC<InviteEarnProps> = ({ onBack, user, onUpdateBalance }
 
   const handleShare = () => {
     const shareText = `Hey there! I've been earning cool rewards with FairMonie pay and it's been amazing.
-You can join too and start earning instantly using my referral code: https://mainfairmonie-pay-ltd.netlify.app  ${referralLink}`;
+You can join too and start earning instantly using my referral code: https://fairmonie-pay-official-ltd.vercel.app  ${referralLink}`;
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
     window.open(whatsappUrl, '_blank');
   };
