@@ -17,9 +17,9 @@ const LiveChat: React.FC<LiveChatProps> = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="text-center">
-        <p className="text-muted-foreground">Redirecting to Telegram Support…</p>
+        <p className="text-muted-foreground">Redirecting to Whatsapp Support…</p>
         <a
-          href={TELEGRAM_SUPPORT_URL}
+          href={WHATSAPP_SUPPORT_URL}
           className="mt-2 inline-block text-sm text-primary underline"
         >
           Click here if you are not redirected
