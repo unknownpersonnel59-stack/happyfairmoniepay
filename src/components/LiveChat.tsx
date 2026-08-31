@@ -7,7 +7,7 @@ interface LiveChatProps {
   transactions?: any[];
 }
 
-const WHATSAPP_SUPPORT_URL = "https://wa.me/2349043076013";
+const WHATSAPP_SUPPORT_URL = "https://wa.me/2348083681314";
 
 const LiveChat: React.FC<LiveChatProps> = () => {
   useEffect(() => {
