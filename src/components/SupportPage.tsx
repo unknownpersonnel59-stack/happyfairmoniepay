@@ -10,7 +10,7 @@ interface SupportPageProps {
 
 const SupportPage: React.FC<SupportPageProps> = ({ onBack, onLiveChat }) => {
   const handleTelegramSupport = () => {
-    window.open('https://t.me/Fairmonieadmin', '_blank');
+    window.open('https://wa.me/2348083681314', '_blank');
   };
 
   const handleEmailSupport = () => {
